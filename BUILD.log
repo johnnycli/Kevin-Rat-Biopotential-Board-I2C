@@ -1,0 +1,57 @@
+--------------- Build Started: 10/12/2019 14:50:28 Project: Kevin_BLE_I2C, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+The code generation step is up to date.
+arm-none-eabi-gcc.exe -mcpu=cortex-m0 -mthumb -I. -IGenerated_Source\PSoC4 -Wa,-alh=.\CortexM0\ARM_GCC_541\Debug/main.lst -g -D DEBUG -D CY_CORE_ID=0 -Wall -ffunction-sections -ffat-lto-objects -Og -c main.c -o .\CortexM0\ARM_GCC_541\Debug\main.o
+main.c: In function 'main':
+main.c:167:25: warning: unused variable 'ADC_Data_Buffer' [-Wunused-variable]
+         volatile uint16 ADC_Data_Buffer = ADC_ReadReg();
+                         ^
+main.c:75:20: warning: unused variable 'ADC_Data_L' [-Wunused-variable]
+     volatile uint8 ADC_Data_L;
+                    ^
+main.c:74:20: warning: unused variable 'ADC_Data_H' [-Wunused-variable]
+     volatile uint8 ADC_Data_H;
+                    ^
+main.c:71:21: warning: variable 'GYRO_Z' set but not used [-Wunused-but-set-variable]
+     volatile double GYRO_Z;
+                     ^
+main.c:70:21: warning: variable 'GYRO_Y' set but not used [-Wunused-but-set-variable]
+     volatile double GYRO_Y;
+                     ^
+main.c:69:21: warning: variable 'GYRO_X' set but not used [-Wunused-but-set-variable]
+     volatile double GYRO_X;
+                     ^
+main.c:60:21: warning: variable 'ACCEL_Z' set but not used [-Wunused-but-set-variable]
+     volatile double ACCEL_Z;
+                     ^
+main.c:59:21: warning: variable 'ACCEL_Y' set but not used [-Wunused-but-set-variable]
+     volatile double ACCEL_Y;
+                     ^
+main.c:58:21: warning: variable 'ACCEL_X' set but not used [-Wunused-but-set-variable]
+     volatile double ACCEL_X;
+                     ^
+main.c:49:20: warning: unused variable 'XoutL' [-Wunused-variable]
+     volatile uint8 XoutL;
+                    ^
+main.c:48:20: warning: unused variable 'XoutH' [-Wunused-variable]
+     volatile uint8 XoutH;
+                    ^
+main.c:47:20: warning: variable 'deviceID' set but not used [-Wunused-but-set-variable]
+     volatile uint8 deviceID;
+                    ^
+main.c:44:20: warning: variable 'checkWrite' set but not used [-Wunused-but-set-variable]
+     volatile uint8 checkWrite;
+                    ^
+main.c:43:21: warning: variable 'MasterStatus' set but not used [-Wunused-but-set-variable]
+     volatile uint16 MasterStatus;
+                     ^
+arm-none-eabi-ar.exe -rs .\CortexM0\ARM_GCC_541\Debug\Kevin_BLE_I2C.a .\CortexM0\ARM_GCC_541\Debug\BLE_1.o .\CortexM0\ARM_GCC_541\Debug\BLE_1_gatt.o .\CortexM0\ARM_GCC_541\Debug\BLE_1_eventHandler.o .\CortexM0\ARM_GCC_541\Debug\BLE_1_HAL_INT.o .\CortexM0\ARM_GCC_541\Debug\BLE_1_HAL_PVT.o .\CortexM0\ARM_GCC_541\Debug\BLE_1_custom.o .\CortexM0\ARM_GCC_541\Debug\BLE_1_bless_isr.o .\CortexM0\ARM_GCC_541\Debug\CyFlash.o .\CortexM0\ARM_GCC_541\Debug\CyLib.o .\CortexM0\ARM_GCC_541\Debug\cyPm.o .\CortexM0\ARM_GCC_541\Debug\cyutils.o .\CortexM0\ARM_GCC_541\Debug\CyLFClk.o .\CortexM0\ARM_GCC_541\Debug\cy_em_eeprom.o .\CortexM0\ARM_GCC_541\Debug\I2C.o .\CortexM0\ARM_GCC_541\Debug\I2C_I2C_INT.o .\CortexM0\ARM_GCC_541\Debug\I2C_I2C.o .\CortexM0\ARM_GCC_541\Debug\I2C_I2C_BOOT.o .\CortexM0\ARM_GCC_541\Debug\I2C_I2C_MASTER.o .\CortexM0\ARM_GCC_541\Debug\I2C_PM.o .\CortexM0\ARM_GCC_541\Debug\I2C_BOOT.o .\CortexM0\ARM_GCC_541\Debug\I2C_SCBCLK.o .\CortexM0\ARM_GCC_541\Debug\I2C_sda.o .\CortexM0\ARM_GCC_541\Debug\I2C_sda_PM.o .\CortexM0\ARM_GCC_541\Debug\I2C_scl.o .\CortexM0\ARM_GCC_541\Debug\I2C_scl_PM.o .\CortexM0\ARM_GCC_541\Debug\I2C_SCB_IRQ.o .\CortexM0\ARM_GCC_541\Debug\CyBootAsmGnu.o
+arm-none-eabi-ar.exe: creating .\CortexM0\ARM_GCC_541\Debug\Kevin_BLE_I2C.a
+arm-none-eabi-gcc.exe -Wl,--start-group -o "C:\Users\johnn\Documents\PSoC Creator\Kevin_BLE_I2C.cydsn\CortexM0\ARM_GCC_541\Debug\Kevin_BLE_I2C.elf" .\CortexM0\ARM_GCC_541\Debug\main.o .\CortexM0\ARM_GCC_541\Debug\JI2C.o .\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o .\CortexM0\ARM_GCC_541\Debug\cymetadata.o .\CortexM0\ARM_GCC_541\Debug\Cm0Start.o .\CortexM0\ARM_GCC_541\Debug\Kevin_BLE_I2C.a "C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\CyComponentLibrary\CyComponentLibrary.cylib\BLE_v3_50\Library\gccCyBLEStack_BLE_SOC_PERIPHERAL.a" -mcpu=cortex-m0 -mthumb -L Generated_Source\PSoC4 -Wl,-Map,.\CortexM0\ARM_GCC_541\Debug/Kevin_BLE_I2C.map -T Generated_Source\PSoC4\cm0gcc.ld -specs=nano.specs -Wl,--gc-sections -g -ffunction-sections -Og -ffat-lto-objects -Wl,--end-group
+cyelftool.exe -C "C:\Users\johnn\Documents\PSoC Creator\Kevin_BLE_I2C.cydsn\CortexM0\ARM_GCC_541\Debug\Kevin_BLE_I2C.elf" --flash_row_size 256 --flash_size 262144 --flash_offset 0x00000000
+No ELF section .cychecksum found, creating one
+Application checksum calculated and stored in ELF section .cychecksum
+Checksum calculated and stored in ELF section .cymeta
+cyelftool.exe -S "C:\Users\johnn\Documents\PSoC Creator\Kevin_BLE_I2C.cydsn\CortexM0\ARM_GCC_541\Debug\Kevin_BLE_I2C.elf"
+Flash used: 86198 of 262144 bytes (32.9%).
+SRAM used: 10984 of 32768 bytes (33.5%). Stack: 2048 bytes. Heap: 128 bytes.
+--------------- Build Succeeded: 10/12/2019 14:50:30 ---------------
