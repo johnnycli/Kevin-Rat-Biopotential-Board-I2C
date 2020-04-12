@@ -1,0 +1,6 @@
+C:\Users\johnn\Documents\PSoC Creator\Kevin_BLE_I2C.cydsn\Kevin_BLE_I2C.cyprj|427714eb-825d-4ea8-a83d-f3df2bb76120
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|050d6ed3-41c4-4a20-abec-04d370463eb9
+C:\Users\johnn\Documents\PSoC Creator\4.2\Downloads ( 4.2).cylib\Downloads ( 4.2).cyprj|6d6a8fbc-e4f0-48e7-84e4-b03da31d6e15
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|ab1b87dd-5838-40fe-9925-bdf44428fc24
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|746ab051-4bea-4537-9af5-4ecfa364118b
+C:\Program Files (x86)\Cypress\PSoC Creator\4.2\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|48c49200-9b88-4f02-9bfc-ece86e4da132
